@@ -1,0 +1,91 @@
+@charset  "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf');
+}
+
+body {
+    background-color: rgb(68, 226, 174);
+    margin: 0%;
+}
+
+main {
+    background: linear-gradient(to top, rgb(13, 65, 47), rgb(90, 216, 128));
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: initial;
+}
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(14, 133, 53);
+    font-family: droid;
+    font-size: 20px;
+}
+
+article {
+    background-color: white;
+    margin: 0px 200px;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(3, 92, 30);
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 20px auto;     
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.video {
+    background-color: rgb(16, 180, 98);
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ol {
+    list-style-type: none;   /* remove números */
+    columns: 2;              /* divide em duas colunas */
+    -webkit-columns: 2;      /* compatibilidade */
+    -moz-columns: 2;         /* compatibilidade */
+    column-gap: 40px;        /* espaço entre colunas */
+    padding: 0;
+    margin: 20px;
+}
+
+ol li::before {
+    content: "✔ ";           /* símbolo de check */
+    color: green;            /* cor do símbolo */
+    font-weight: bold;
+}
+
+
